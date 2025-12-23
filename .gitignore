@@ -1,0 +1,112 @@
+# Vivado Project Files - DO NOT COMMIT
+*.xpr
+*.xise
+*.xps
+
+# Generated Files
+.gen/
+.hw/
+.sim/
+.runs/
+.ip_user_files/
+.backup.jou
+.jou
+.str
+.pb
+.dcp
+.tcl
+.vdi
+.vds
+*.backup.jou
+*.pb
+*.dcp
+*.tcl
+*.vdi
+*.vds
+
+# Build and Compilation Output
+*.bit
+*.mcs
+*.bin
+
+# Simulation Output
+*.wdb
+*.vcd
+*.ghw
+*.fsdb
+xsim.dir/
+webtalk_*.jou
+webtalk_*.log
+
+# Log Files
+vivado.log
+vivado.jou
+vivado*.backup.jou
+vivado_pid*.str
+htr.txt
+
+# Xilinx Cache
+.cache/
+.Xil/
+*.rpt
+*.rpx
+.vivado
+
+# IP Generated Files
+blk_mem_gen_0/
+mem_gen_ram/
+mem_gen_rom/
+
+# Report Files
+*.rpt
+*.rpx
+*.drc
+*_drc_opted*
+cpu_opt.dcp
+init_design.pb
+opt_design.pb
+place_design.pb
+
+# Windows/Linux Build Scripts
+runme.bat
+runme.sh
+ISEWrap.js
+ISEWrap.sh
+*.xml
+rundef.js
+project.wdf
+gen_run.xml
+
+# Eclipse/IDE Settings
+.project
+.pydevproject
+.settings/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editor Backups
+*.bak
+*.orig
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Build Directories
+build/
+dist/
+*.egg-info/
+
+# Keep these files
+!*.v
+!*.coe
+!*.mif
+!README.md
+!LICENSE
+!
